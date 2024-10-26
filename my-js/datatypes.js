@@ -29,4 +29,4 @@ console.log(typeof negativeNumber)
 console.log(typeof salary)
 console.log(typeof undefined) //it will print undefined as its type 
 console.log(typeof null) //it will print object 
-console.log(typeof Symbol)
+console.log(typeof Symbol) //output will be function
