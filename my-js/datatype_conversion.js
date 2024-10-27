@@ -22,9 +22,7 @@ console.log("Scenario-1 checking name data type", typeof myName)
 
 let numerology = Number(myName)
 
-console.log("Scenario-1 after conversion want to check value: ", numerology) //printing NaN
-
-console.log("Scenario-1 after conversion want to check data type: ", typeof(numerology))
+console.table([typeof(numerology), numerology]) //printing number and NaN
 
 //convert a null to a number and check its data type and value
 
@@ -34,9 +32,7 @@ console.log("Scenario-2 checking name data type", typeof myName1)
 
 let numerology1 = Number(myName1)
 
-console.log("Scenario-2 after conversion want to check null value: ", numerology1) //printing 0
-
-console.log("Scenario-2 after conversion want to check null data type: ", typeof(numerology1)) //number
+console.table([typeof(numerology1), numerology1]) //printing number and 0
 
 
 //convert a undefined to a number and check its data type and value
@@ -47,9 +43,7 @@ console.log("Scenario-3 checking name data type", typeof myName2)
 
 let numerology2 = Number(myName2)
 
-console.log("Scenario-3 after conversion want to check undefined value: ", numerology2) //printing NaN
-
-console.log("Scenario-3 after conversion want to check undefined data type: ", typeof(numerology2)) //number
+console.table([typeof(numerology2), numerology2]) //printing number and NaN
 
 
 
